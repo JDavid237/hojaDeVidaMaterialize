@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Hoja de vida</title>
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body{background:rgb(217, 238, 235) ;}
+    div{padding: 7px;}
+    header{padding: 12px;}
+  </style>
+</head>
+<body>
+  <header class="teal lighten-3">
+    <nav class="teal lighten-2">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo left">Hoja de vida</a>
+        <a href="#" data-target="menu" class="right sidenav-trigger "><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="pag/Resumen.html">RESUMEN</a></li>
+          <li><a href="pag/Perfil.html">PERFIL</a></li>
+          <li><a href="pag/Educacion.html">EDUCACION</a></li>
+          <li><a href="pag/Contacto.html">CONTACTO</a></li>
+        </ul>
+      </div>
+
+      <ul id="menu" class="right sidenav">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="pag/Resumen.html">RESUMEN</a></li>
+        <li><a href="pag/Perfil.html">PERFIL</a></li>
+        <li><a href="pag/Educacion.html">EDUCACION</a></li>
+        <li><a href="pag/Contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="row">
+      <article class="container col s8 teal lighten-4">
+        <div class="card">
+
+          <h2 class="teal-text">¿QUÉ INCLUIRÁ ESTA PÁGINA WEB?</h2>
+          <h5>
+            Esta página tendrá mi hoja de vida, empezando por un resumen de todo
+            para luego mediante diferentes menús se irá dando más detalles sobre
+            mí, <span style="color: rgb(1, 188, 235); text-decoration: none;">Juan David Silva Acevedo</span>.
+          </h5>
+        </div>
+        </div>
+        <div class="card">
+          <h2 class="teal-text">¿QUÉ ASPECTOS TRATARÁ?</h2>
+       
+          <h5>
+            Solo aparecerá información relacionada a mí, es mi presentación
+            profesional para una empresa e incluye todo tipo de información
+            importante relacionada al puesto de trabajo que quiero desempeñar.
+          </h5>
+        </div>
+      </div>
+        <div class="card">
+          <h2 class="teal-text">SECCIONES</h2>
+        
+          <h5>
+            Esta página estará dividida en 5 secciones para facilitar la consulta de la información. Estas secciones estarán relacionadas con el tema y harán de esta página web una con mayor dinamismo. Las secciones son las siguientes:
+          </h5>
+          <ul class="collection">
+            <li class="collection-item"><span class="badge">1</span>Inicio: Esta página</li>
+            <li class="collection-item"><span class="badge">2</span>Resumen: Breve resumen acerca de mi hoja de vida</li>
+            <li class="collection-item"><span class="badge">3</span>Perfil: Información relacionada a mi perfil y habilidades</li>
+            <li class="collection-item"><span class="badge">4</span>Educación: Aprendizaje que he recibido con certificado</li>
+            <li class="collection-item"><span class="badge">5</span>Contacto: Forma de contactarse conmigo</li>
+          </ul>
+        </div>
+      </article>
+     
+      <aside class="container col s3">
+    
+        <div class="card" style="margin-top:40px;">
+        <img src="img/img1.jpg" alt="Imagen" class="responsive-img" >
+      </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="page-footer teal lighten-2">
+    <div class="container center">
+      <span>&copy2024 Todos los derechos reservados</span>
+    </div>
+  </footer>
+
+  <!-- Materialize JS -->
+  <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems,{edge:"right",});
+  });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

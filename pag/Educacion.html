@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body{background:rgb(217, 238, 235) ;}
+        div{padding: 7px;}
+        header{padding: 12px;}
+      </style>
+</head>
+<body>
+  <header class="teal lighten-3">
+    <nav class="teal lighten-2">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo left">Hoja de vida</a>
+        <a href="#" data-target="menu" class="right sidenav-trigger "><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="../index.html">INICIO</a></li>
+          <li><a href="Resumen.html">RESUMEN</a></li>
+          <li><a href="Perfil.html">PERFIL</a></li>
+          <li><a href="Educacion.html">EDUCACION</a></li>
+          <li><a href="Contacto.html">CONTACTO</a></li>
+        </ul>
+      </div>
+
+      <ul id="menu" class="right sidenav">
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="Resumen.html">RESUMEN</a></li>
+        <li><a href="Perfil.html">PERFIL</a></li>
+        <li><a href="Educacion.html">EDUCACION</a></li>
+        <li><a href="Contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main class="container">
+        <section class="descri">
+          <div class="card">
+           <div class="card-content">
+          <h2 class="center-align teal-text">ESTUDIOS REALIZADOS</h2>
+          <h4 class="center-align">Estos son todos los estudios que he realizado hasta el momento, cada uno de estos a excepción del último que aún estoy haciendo tienen su respectiva certificación</h4>
+        </div>
+        </div>
+        </section>
+        <section>
+            <table class="highlight centered striped teal lighten-2" style="margin-bottom:25px;">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Estudio</th>
+                        <th>Descripción</th>
+                        <th>Certificación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2011-2015</td>
+                        <td>Liceo Cristiano Sinai</td>
+                        <td>Educación primaria</td>
+                        <td>Estudié la primaria en un mismo colegio en Bogotá donde aprendí las cosas básicas</td>
+                        <td>SI</td>
+                    </tr>
+                    <tr>
+                        <td>2016-2021</td>
+                        <td>IED San Nicolás</td>
+                        <td>Educación básica secundaria y media</td>
+                        <td>Estudié toda mi secundaria en el mismo colegio en Sasaima y me gradué ahí mismo</td>
+                        <td>SI</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>SENA</td>
+                        <td>Curso Especial de lógica y fortalecimiento matemático</td>
+                        <td>Realicé un pequeño curso en el SENA mientras estudiaba el técnico que daban en el mismo colegio</td>
+                        <td>SI</td>
+                    </tr>
+                    <tr>
+                        <td>2020-2021</td>
+                        <td>SENA</td>
+                        <td>Técnico Comercio Internacional</td>
+                        <td>Realicé un técnico en el colegio, el cual culminé al graduarme del mismo</td>
+                        <td>SI</td>
+                    </tr>
+                    <tr>
+                        <td>2022-2024</td>
+                        <td>SENA</td>
+                        <td>Tecnólogo Análisis y Desarrollo de Software</td>
+                        <td>Actualmente estoy haciendo este tecnólogo y pronto lo terminaré</td>
+                        <td>NO</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="prox">PROXIMAMENTE</td>
+                    </tr>
+                    <tr>
+                        <td>???</td>
+                        <td>Universidad</td>
+                        <td>Ingeniero de software/Sistemas</td>
+                        <td>Próximamente homologaré mi tecnólogo para culminar mi carrera profesional</td>
+                        <td>NO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="page-footer teal lighten-2">
+        <div class="container center white-text">
+            <span>&copy2024 Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+       var elems = document.querySelectorAll('.sidenav');
+       var instances = M.Sidenav.init(elems,{edge:"right",});
+     });
+     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
